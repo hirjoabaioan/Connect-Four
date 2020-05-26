@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <link rel="icon" href="Con4.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="CFmystylesheet.css">
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Welcome to Connect Four!</h1>
+            <h2>The object of this game is to connect four of your chips in a row!</h2>
+            <p>The Score Board for this session is at the bottom!</p>
+            <button id="rest" type="button" class="btn btn-secondary"> Restart</button> 
+            <h3></h3>
+        </div>
+        <div class="container" align="center">
+            <table id="tab" align="center">
+                <tr>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                    <td><button type="button"></button></td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+            <p  align="center">Score Board<hr></p>
+            <p id='scoreBoard'  align="center"></p>
+            <hr>
+        </div>
+    </div>
+    <script src="CFmyjavascript.js"></script>
+</body>
+</html>

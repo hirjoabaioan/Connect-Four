@@ -1,0 +1,21 @@
+h1{
+    font-size: 40px;
+}
+
+div{
+    text-align: center;
+}
+
+table button{
+    margin: 1px;
+    border: 4px solid black;
+    border-radius: 50%;
+    background-color: rgb(128, 128, 128);
+    height: 100px;
+    width: 100px;
+}
+
+hr {
+    width:50%;
+    text-align:center;
+}
