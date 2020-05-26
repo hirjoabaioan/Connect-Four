@@ -1,2 +1,3 @@
 # Connect-Four
-Simple Connect Four game
+A simple Connect Four game
+Open Connect_Four.html file to start
